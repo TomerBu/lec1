@@ -7,7 +7,6 @@ function App() {
     <div className="app">
       <Header />
       <h1>This is my First React App</h1>
-
       <Footer />
     </div>
   );
