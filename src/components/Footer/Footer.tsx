@@ -4,7 +4,16 @@ import css from "./Footer.module.css";
 
 //Named export
 const Footer = () => {
-  return <footer className={css.text}>Footer</footer>;
+  //Event handlers:
+  const onFooterClicked = () => {
+    alert("Footer Clicked");
+  };
+
+  return (
+    <footer onClick={onFooterClicked} className={css.text}>
+      Footer
+    </footer>
+  );
 };
 
 export default Footer;
